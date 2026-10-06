@@ -1,0 +1,142 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.0",
+    "script_metadata_hash": "cdac4f193ea60f385129ed849f93ec6c"
+  },
+  "cells": [
+    {
+      "id": "setup",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "7e7451b50b50bb577ad8b75a68d9e431",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Hbol-0' random-id='d339bf90-f53b-f78d-6007-a568f7adcabe'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;turma&#92;&quot;:&#92;&quot;7&#92;&#92;u00baA&#92;&quot;},{&#92;&quot;turma&#92;&quot;:&#92;&quot;7&#92;&#92;u00baB&#92;&quot;}]&quot;' data-total-rows='2' data-total-columns='1' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;turma&quot;,[&quot;string&quot;,&quot;object&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Ficheiros lidos com sucesso!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "c3a99be0f15f813327ad98e009c82218",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Vari\u00e1veis criadas e restri\u00e7\u00f5es R1 a R4 adicionadas com sucesso!\nRestri\u00e7\u00f5es R1 a R7 adicionadas com sucesso!\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "vblA",
+      "code_hash": "874364afed2daa97c0ae146e9976ce79",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "A procurar o melhor hor\u00e1rio. Isto pode demorar alguns segundos...\n\u2705 Hor\u00e1rio encontrado! Status: OPTIMAL\n\ud83c\udfaf N\u00famero total de buracos dos professores: 0\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "c5dee24d50e9ab547bf81de9d9d5423a",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\n========================================\n HOR\u00c1RIO DA TURMA 7\u00baA\n========================================\nDia                  Seg         Ter         Qua         Qui         Sex\nPer\u00edodo                                                                 \n1               Hist\u00f3ria  Matem\u00e1tica      Ingl\u00eas   Portugu\u00eas    Ci\u00eancias\n2              Portugu\u00eas    Hist\u00f3ria         ---         ---         ---\n3                    ---      Ingl\u00eas   Portugu\u00eas         ---         ---\n4        Educa\u00e7\u00e3o F\u00edsica    Ci\u00eancias  Matem\u00e1tica    Ci\u00eancias  Matem\u00e1tica\n5        Educa\u00e7\u00e3o F\u00edsica   Portugu\u00eas         ---  Matem\u00e1tica         ---\n\n========================================\n HOR\u00c1RIO DA TURMA 7\u00baB\n========================================\nDia             Seg              Ter         Qua        Qui         Sex\nPer\u00edodo                                                                \n1         Portugu\u00eas           Ingl\u00eas         ---        ---         ---\n2            Ingl\u00eas       Matem\u00e1tica    Hist\u00f3ria  Portugu\u00eas    Ci\u00eancias\n3               ---              ---         ---        ---    Hist\u00f3ria\n4          Ci\u00eancias  Educa\u00e7\u00e3o F\u00edsica   Portugu\u00eas        ---   Portugu\u00eas\n5        Matem\u00e1tica  Educa\u00e7\u00e3o F\u00edsica  Matem\u00e1tica   Ci\u00eancias  Matem\u00e1tica\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "e7a04a14585c08b38b42d9dcf351fcd3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "\u2705 H1 Incremental resolvido com sucesso!\n\u23f1\ufe0f Tempo de execu\u00e7\u00e3o: 0.1464 segundos.\n\ud83d\udd04 Aulas alteradas face a H0: 2 de 34 totais.\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "PKri",
+      "code_hash": "f884d704f71d4b828dabff2faf52f646",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "--- TESTE 1: Hor\u00e1rio V\u00e1lido (H0) ---\n\u2705 O hor\u00e1rio passou na verifica\u00e7\u00e3o independente!\n\n--- TESTE 2: Hor\u00e1rio Mutado (Estragado) ---\n\u274c Erro R1: A turma 7\u00baA tem 2 aulas na Seg ao per\u00edodo 1.\n\u274c Erro R6: Prof. Eduardo a dar aula num per\u00edodo de exce\u00e7\u00e3o (Seg, 1).\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    }
+  ]
+}
