@@ -1,0 +1,1 @@
+Código feito com a ajuda do copilot integrado no VS Code, com a utilização de sugestões de linha
